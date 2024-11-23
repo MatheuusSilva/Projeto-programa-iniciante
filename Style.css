@@ -1,15 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 
 #topo {
     background-color: rgb(2, 2, 2);
 }
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  background-color: rgb(18, 142, 180);
+  text-decoration: underline;
+}
+#navteste {
+  background-color: black;
+}
+
 
 #vast-shadow-regular {
-    font-family: "Vast Shadow", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  color: white;
+}
 #Ferramentas {
     display: flex;
 
@@ -27,7 +40,16 @@ body {
 }
 
 @media screen and (min-width:320px) and (max-width:1024px) {
-    .row {
+    #imginicio{
+      max-width: 90%;
+      height: auto;
+    }
+    #imgintroducao {
+      max-width: 110%;
+      height: auto;
+    }
+
+  .row {
         display: flex;
         flex-direction: column; /* Torna os itens empilhados */
         align-items: center; /* Centraliza os itens */
@@ -131,4 +153,11 @@ p{
 
 .alinhar{
   text-align: justify;
+  word-spacing: normal;
+}
+.nav {
+  background-color: black;
+}
+.navbar-toggler {
+  background-color: white;
 }
