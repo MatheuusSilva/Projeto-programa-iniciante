@@ -51,26 +51,26 @@ body {
 
   .row {
         display: flex;
-        flex-direction: column; /* Torna os itens empilhados */
-        align-items: center; /* Centraliza os itens */
+        flex-direction: column;
+        align-items: center; 
       }
     
     .col-7, .col-5 {
-        width: 100%; /* Garante que as colunas ocupem toda a largura */
-        text-align: center; /* Centraliza o texto */
-        margin-bottom: 20px; /* Espaço entre os elementos */
+        width: 100%; 
+        text-align: center; 
+        margin-bottom: 20px; 
       }
     
     .col-5 img {
-        width: 80%; /* Ajusta o tamanho da imagem */
-        height: auto; /* Mantém a proporção da imagem */
-        margin: 0 auto; /* Centraliza horizontalmente */
+        width: 80%; 
+        height: auto; 
+        margin: 0 auto; 
         margin-top: auto;
       }
     .col-3, .col-9, .col-8 {
-        width: 100%; /* Garante que as colunas ocupem toda a largura */
-        text-align: center; /* Centraliza o texto */
-        margin-bottom: 15px; /* Espaço entre os elementos */
+        width: 100%; 
+        text-align: center; 
+        margin-bottom: 15px; 
         align-items: center;
       }
     #investimentoimg {
@@ -80,9 +80,9 @@ body {
         display: flex;
       }
     img {
-        width: 100%; /* Ajusta o tamanho da imagem */
-        height: auto; /* Mantém a proporção da imagem */
-        margin: 0 auto; /* Centraliza horizontalmente */
+        width: 100%; 
+        height: auto; 
+        margin: 0 auto; 
       }
     h3 {
         text-align: center;
