@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 
+#paragraph{
+  font-size: large;
+  text-align: justify;
+}
+
 #topo {
-    background-color: rgb(2, 2, 2);
+    background-color: rgb(1, 1, 1);
 }
 .nav-link {
   color: white;
@@ -14,7 +19,6 @@
 #navteste {
   background-color: black;
 }
-
 
 #vast-shadow-regular {
   font-family: 'Press Start 2P';
@@ -36,7 +40,11 @@
   flex-direction: row;
 }
 body {
-  background-image: url(img/background.png);
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+    url("img/background.png");
+  background-attachment: fixed;
+  background-position: center;
 }
 
 @media screen and (min-width:320px) and (max-width:1024px) {
@@ -114,8 +122,8 @@ body {
 }
 
 #conteudo{
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 250px;
+  margin-right: 250px;
 
 }
 div{
