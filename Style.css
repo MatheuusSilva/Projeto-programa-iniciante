@@ -124,8 +124,15 @@ body {
 #conteudo{
   margin-left: 250px;
   margin-right: 250px;
-
 }
+
+@media (max-width: 768px) {
+  #conteudo {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
 div{
   text-align: center;
 }
